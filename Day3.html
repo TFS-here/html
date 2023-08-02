@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day3</title>
+    <link rel="stylesheet" href="Day3.css">
+</head>
+<body>
+    <h1 class="headings" draggable="true">Day Three</h1>
+    
+    <h2 class="topics"><b>Form</b></h2>
+    <form action="username.php" method="get">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" autofocus required> <br>
+    <label for="password">Password :</label><br>
+    <input type="password" id="password" maxlength="8" minlength="6" required> <br>
+    <label for="gender">Gender:</label><br>
+    <input type="radio" name="gender" value="Male" id="Male">Male
+    <input type="radio" name="gender" value="Female" id="Female"> Female
+    <br>
+    <label for="city">City:</label>
+    <select name="" id="">
+        <option value="Dhaka">Dhaka</option>
+        <option value="Barisal">Barisal</option>
+        <option value="Khulna">Khulna</option>
+        <option value="Rajshahi">Rajshahi</option>
+    </select>
+    <br>
+    <textarea name="" id="" cols="30" rows="5" placeholder="Insert your details"></textarea>
+    <br>
+    Favourite programming language: <br>
+    <input type="text" list="mylist">
+    <datalist id="mylist">
+        <option value="C">C</option>
+        <option value="C++">C++</option>
+        <option value="Java"Java</option>
+            <option value="Python">Python</option>
+            
+        
+    </datalist>
+<br>
+    <input type="submit" value="Submit">
+    
+</form>
+<hr>
+<h2 class="topics">Media</h2>
+Video <br>
+<video height="300" width="500" controls>
+    <source src="E:\VS Code\Bohubrihi\Video\Cox's Bazar.mp4">
+    your browser dosen't support this format.
+</video><br>
+Audio
+<br>
+<Audio controls>
+<source src="E:\VS Code\Bohubrihi\Audio\Cox's Bazar.mp3">
+your browser dosen't support this format.
+</Audio>
+
+<h2 class="topics"> API</h2>
+<hr>
+<h1 id="empty"></h1>
+<button type="button" onclick="myLocation()">Get Location</button>
+
+<script>
+    var h= document.getElementById("empty");
+    function myLocation()
+    {
+        if( navigator.geolocation)
+        navigator.geolocation.getCurrentPosition(showLocation);
+    }
+
+    function showLocation(position)
+    {
+        h.innerHTML="Long :"+position.coords.longitude;
+
+    }
+</script>
+
+</body>
+</html>

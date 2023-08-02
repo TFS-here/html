@@ -1,0 +1,16 @@
+.headings{
+    text-align: center;
+    color: blue;
+    background-color: bisque;
+}
+.topics{
+    color: red;
+    text-align: left;
+}
+form{
+    text-align: justify;
+    
+}
+input{
+    padding: 10px;
+}

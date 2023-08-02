@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 3vw;
+}
+h2{
+    text-align: center;
+    color: rgb(60, 12, 92);
+    font-size: 2vw;
+}
+.a{
+    background-color: antiquewhite;
+}
+table,th,td{
+    flex: 1;
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+img{
+    flex: 1;
+    width: 49%;
+     height: 30vw;
+     /* float: right; */
+    
+}
+.b{
+    background-color: darkgray;
+    display: flex;
+    width: 100%;
+}
+iframe{
+    height: 200%;
+    width: 50%;
+}
+p{
+    font-size: 30px;
+}
+.c{
+    background-color: bisque;
+}
+.d{
+    background-color: burlywood;
+}
+.e{
+    background-color: aquamarine;
+    font-size: 2vw;
+}
+
