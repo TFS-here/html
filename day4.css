@@ -1,0 +1,24 @@
+body{
+    background: url(Image/background.jpg);
+    background-size: 1560px 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0%;
+}
+p{
+    color: rgb(146, 69, 69);
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: greenyellow;
+}
+.para{
+    display: inline;
+    border: 3px dotted goldenrod;
+    color: cadetblue;
+    font-style: inherit;
+    font-size: larger;
+    margin: 20px 10px 20px 20px;
+    padding: 20px 10px 20px 20px;
+}

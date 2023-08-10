@@ -1,0 +1,24 @@
+.container{
+    border: 2px;
+}
+h1{
+    text-align: center;
+}
+.col-5{
+    background-color: rgb(123, 123, 41, 0.7);
+  
+}
+.col-7{
+    background-color: blueviolet;
+}
+.col-8{
+    background-color: palevioletred;
+
+}
+.col-4{
+    background-color: burlywood;
+}
+button{
+    width: 10%;
+    margin: auto;
+}

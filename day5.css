@@ -1,0 +1,109 @@
+body {
+    background: url(Image/background.jpg);
+    background-size: contain;
+    background-repeat: repeat-y
+}
+
+h1 {
+    color: rgb(87, 110, 179);
+    border: 2px solid whitesmoke;
+    width: 100px;
+    margin: auto;
+    text-shadow: 2px 2px burlywood;
+    overflow: auto;
+}
+
+.navbar {
+    background-color: blue;
+    color: aqua;
+    width: 50%;
+    border: 10px solid wheat;
+    margin: auto;
+    padding: 50px solid black;
+    outline: 3px solid red;
+    overflow: auto;
+}
+
+.navbar p {
+    text-indent: 100px;
+    text-align: justify;
+    text-decoration: underline;
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-family: 'Borel', cursive;
+
+}
+#link{
+    background-color: rgb(91, 190, 33);
+    display: block;
+    width: 200px;
+    height: 28px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+#link:link{
+    background-color: rgb(0, 255, 26);
+    font-size: 1.25vw;
+    color: antiquewhite;
+}
+#link:visited{
+    background-color: red;
+    font-size: 1.25vw;
+    color: rgb(142, 113, 75);
+}
+#link:hover{
+    background-color: rgb(31, 208, 193);
+    font-size: 1.25vw;
+    color: rgb(78, 71, 117);
+}
+#link:checked{
+    background-color: rgb(226, 243, 37);
+    font-size: 1.25vw;
+    color: rgb(200, 100, 126);
+}
+.list{
+    width: 30%;
+    margin: auto;
+    background-color: darkgray;
+    font-size: 1.5vw;
+    color: rgb(30, 76, 33);
+    padding: 20px;
+}
+.list ol li{
+    background-color: rgb(253, 193, 193);
+    color: rgb(13, 72, 72);
+}
+.table{
+    background-color:darkgoldenrod ;
+    width: 50%;
+    margin: auto;
+    
+}
+.table table{
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table table tr th{
+    background-color: blueviolet;
+    padding: 30px;
+    border: 2px solid black;
+   
+}
+.table table tr td{
+    background-color: rgb(43, 217, 226);
+    padding: 30px;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+.display{
+    padding: 25px;
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
+}

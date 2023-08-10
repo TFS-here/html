@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.headings{
+    border: 2px solid blue;
+    background-color: darkgray;
+    text-align: center;
+    font-size: larger
+    ;
+}
+.left{
+    border: 2px solid red;
+    background-color:cyan;
+    float: left;
+    width: 60%;
+}
+.right{
+    border: 2px solid yellow;
+    float: right;
+    width: 40%;
+    background-color: darkgreen;
+}
+@media only screen and (min-width: 700px){
+   body{
+     background-color: rgba(0, 0, 0, 0.60);
+     background-image: url(Image/background.jpg);
+     background-size:cover;
+     background-repeat: no-repeat;
+   }
+}
